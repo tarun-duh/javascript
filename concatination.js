@@ -1,0 +1,11 @@
+const bank1 = 100;
+const bank2 = 200;
+const total= bank1 + bank2;
+console.log(total);
+let username = `atul`;
+let message = `welcome to my website ${username}`;
+console.log(message);
+let bank3 = 1;
+let bank4 = `1`;
+let add = bank3 + bank4;
+console.log(add);
