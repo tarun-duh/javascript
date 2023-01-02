@@ -14,5 +14,5 @@ function guesingGame() {
   } while (guess != fixedNum);
   console.log("you won");
 }
-
+// h;
 guesingGame();
