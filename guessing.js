@@ -1,5 +1,5 @@
 function guesingGame() {
-  randomNum = Math.random() * 11;
+  randomNum = Math.random() * 101;
   fixedNum = Math.floor(randomNum);
   //   console.log(fixedNum);
   let guess;
@@ -14,5 +14,4 @@ function guesingGame() {
   } while (guess != fixedNum);
   console.log("you won");
 }
-// h;
 guesingGame();
