@@ -1,0 +1,21 @@
+// let a = document.getElementsByTagName("h2");
+// let b = document.getElementById("button");
+// let c = document.getElementsByClassName("items");
+// a = document.querySelectorAll("h2");
+// b = document.querySelectorAll("#button");
+// c = document.querySelectorAll(".items");
+// console.log(a);
+// console.log(b);
+// console.log(c);
+const collection = document.getElementsByClassName("items");
+const toDoList = document.getElementById("top");
+
+const newItem = document.createElement("li");
+newItem.classList.add("items");
+newItem.innerText = "tarun";
+toDoList.append(newItem);
+console.log(collection, toDoList);
+const anotherItem = document.createElement("h2");
+anotherItem.classList.add("items");
+anotherItem.innerText = "yoooo";
+toDoList.append(anotherItem);
